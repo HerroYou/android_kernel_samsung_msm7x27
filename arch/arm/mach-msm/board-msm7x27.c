@@ -155,7 +155,7 @@ static int gpio_wlan_reset_n = 82;
 #ifdef CONFIG_SAMSUNG_JACK
 
 #define GPIO_JACK_S_35	28
-#define GPIO_SEND_END	29
+#define GPIO_SEND_END	94    //110119 hm83.cho  in HW Rev 0.1 , 0.2, ear switch use GPIO 94  , in HW rev 0.3 use GPIO 29
 
 static struct sec_jack_zone jack_zones[] = {
 	[0] = {
